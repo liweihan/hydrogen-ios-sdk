@@ -8,7 +8,7 @@
 
 import Foundation
 import Moya
-import Result
+// import Result
 
 protocol Mappable {
     init?(dict: [String: Any])

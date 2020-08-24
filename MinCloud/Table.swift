@@ -8,7 +8,7 @@
 
 import UIKit
 import Moya
-import Result
+// import Result
 
 @objc(BaaSTable)
 public class Table: NSObject {

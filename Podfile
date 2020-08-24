@@ -20,12 +20,12 @@ end
 
 target 'Demo_Swift' do
   use_frameworks!
-  platform :ios, '9.0'
+  platform :ios, '14.0'
   pod 'Moya'
 end
 
 target 'Demo_OC' do
   use_frameworks!
-  platform :ios, '9.0'
+  platform :ios, '14.0'
   pod 'Moya'
 end

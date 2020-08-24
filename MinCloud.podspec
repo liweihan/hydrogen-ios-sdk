@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://cloud.minapp.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pengquanhua' => 'pengquanhua@ifanr.com' }
-  s.source           = { :git => 'https://github.com/ifanrx/hydrogen-ios-sdk.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/liweihan/hydrogen-ios-sdk.git', :tag => s.version }
  
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
   s.subspec 'Core' do |core|
     core.source_files = 'MinCloud/*.{swift}'
     core.dependency 'Moya'

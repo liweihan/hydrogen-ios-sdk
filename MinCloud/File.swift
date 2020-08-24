@@ -8,7 +8,7 @@
 
 import Foundation
 import Moya
-import Result
+// import Result
 
 @objc(BaaSFile)
 open class File: NSObject, Mappable {

@@ -8,7 +8,7 @@
 
 import Foundation
 import Moya
-import Result
+// import Result
 
 @objc public class BaaS: NSObject {
     @objc public static func register(clientID: String, serverURLString: String? = nil) {
